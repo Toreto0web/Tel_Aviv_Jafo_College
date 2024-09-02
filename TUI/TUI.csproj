@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1121129C-A1AE-46E1-91F3-107E12F29C41}</ProjectGuid>
+    <ProjectGuid>{9E293D53-F612-47C5-844D-722C2C946782}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tel_Aviv_Jafo_College</RootNamespace>
-    <AssemblyName>Tel_Aviv_Jafo_College</AssemblyName>
+    <RootNamespace>TUI</RootNamespace>
+    <AssemblyName>TUI</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -36,11 +36,13 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Administration.cs" />
-    <Compile Include="Course.cs" />
-    <Compile Include="Professor.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Student.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Tel_Aviv_Jafo_College\Logics.csproj">
+      <Project>{1121129c-a1ae-46e1-91f3-107e12f29c41}</Project>
+      <Name>Logics</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

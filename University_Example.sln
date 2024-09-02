@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.34902.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tel_Aviv_Jafo_College", "Tel_Aviv_Jafo_College\Tel_Aviv_Jafo_College.csproj", "{1121129C-A1AE-46E1-91F3-107E12F29C41}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logics", "Tel_Aviv_Jafo_College\Logics.csproj", "{1121129C-A1AE-46E1-91F3-107E12F29C41}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TUI", "TUI\TUI.csproj", "{9E293D53-F612-47C5-844D-722C2C946782}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{1121129C-A1AE-46E1-91F3-107E12F29C41}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1121129C-A1AE-46E1-91F3-107E12F29C41}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1121129C-A1AE-46E1-91F3-107E12F29C41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E293D53-F612-47C5-844D-722C2C946782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E293D53-F612-47C5-844D-722C2C946782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E293D53-F612-47C5-844D-722C2C946782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E293D53-F612-47C5-844D-722C2C946782}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
