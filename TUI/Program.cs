@@ -10,7 +10,7 @@ namespace Academic_College_Tel_Aviv_Jafo
     {
         public static void Main(string[] args)
         {
-            // run program...
+            Administration admin = new Administration();
         }
     }
 
